@@ -7,13 +7,27 @@
 
 <body>
     <div class="wrapper">
-        <div class="weather sunny"></div>
-        <div class="weather cloudy"></div>
-        <div class="weather rainy"></div>
-        <div class="weather snowy"></div>
+        <div class="weather sunny">
+            <span class="type">晴天</span>
+        </div>
+        <div class="weather cloudy">
+            <span class="type">多云</span>
+        </div>
+        <div class="weather rainy">
+            <span class="type">小雨</span>
+        </div>
+        <div class="weather snowy">
+            <span class="type">大雪</span>
+        </div>
     </div>
 </body>
 <style>
+.type{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
 .wrapper{
     width: 100vw;
     height: 100vh;
